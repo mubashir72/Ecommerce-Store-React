@@ -1,1 +1,1 @@
-# Ecommerce-Store-React
+# Ecommerce Store
