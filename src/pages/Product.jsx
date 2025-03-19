@@ -95,7 +95,7 @@ const Product = () => {
         </div>
       </div>
 
-      {/* Desscription &Review section */}
+      {/* Description &Review section */}
       <div className="mt-20 ">
         <div className="flex">
           <b className="border px-5 py-3 text-sm">Description</b>
