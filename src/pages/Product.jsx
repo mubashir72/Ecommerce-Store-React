@@ -2,10 +2,11 @@ import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ShopContext } from "../context/ShopContext";
 import { assets } from "../assets/assets";
+import RelatedProducts from "../components/RelatedProducts";
 
 const Product = () => {
   const { productId } = useParams();
-  const { products, currency } = useContext(ShopContext);
+  const { products, currency, addToCart } = useContext(ShopContext);
   const [productData, setProductData] = useState(false);
   const [image, setImage] = useState("");
   const [size, setSize] = useState("");
@@ -81,7 +82,10 @@ const Product = () => {
               ))}
             </div>
           </div>
-          <button className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700">
+          <button
+            onClick={() => addToCart(productData._id, size)}
+            className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700"
+          >
             ADD TO CART
           </button>
           <hr className="mt-8 sm:w-4/5" />
@@ -101,8 +105,26 @@ const Product = () => {
           <b className="border px-5 py-3 text-sm">Description</b>
           <p className="border px-5 p-3 text-sm">Reviews (122)</p>
         </div>
-        <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500"></div>
+        <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            accusamus dolorum? Ipsam earum ratione repellendus, obcaecati,
+            dolore pariatur sint quia vel adipisci reprehenderit doloribus
+            necessitatibus animi repellat nulla recusandae nobis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            laboriosam porro impedit, fuga ad perferendis dolorem nostrum
+            reprehenderit sequi facilis ratione voluptatibus nihil obcaecati,
+            commodi adipisci eius hic autem magni.
+          </p>
+        </div>
       </div>
+      {/* related products */}
+      <RelatedProducts
+        category={productData.category}
+        subCategory={productData.subCategory}
+      />
     </div>
   ) : (
     <div className="opacity-0"></div>
