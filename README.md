@@ -1,7 +1,3 @@
-Based on your folder structure and the technologies used, here's a detailed README file:
-
----
-
 # E-Commerce Store Frontend
 
 This is a feature-rich frontend for an e-commerce store, developed using **React.js**, **Tailwind CSS**, and **HTML**. The project is designed to replicate a modern e-commerce platform with a clean UI and functional components.
@@ -71,7 +67,7 @@ src/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-store.git
+   git clone https://github.com/mubashir72/Ecommerce-Store-React.git
    cd ecommerce-store
    ```
 
@@ -87,7 +83,7 @@ src/
    bun dev
    ```
 
-4. Open the app in your browser at `http://localhost:3000`.
+4. Open the app in your browser at `http://localhost:5173`.
 
 ## Scripts
 
@@ -112,7 +108,3 @@ src/
 ### Product Listing
 
 ![Product Listing](image-2.png)
-
----
-
-Let me know if you'd like any specific changes or additional sections!
