@@ -106,11 +106,12 @@ src/
 
 ### Homepage
 
-![Homepage](path-to-homepage-screenshot.png)
+![Homepage]![alt text](image.png)
+![Homepage](image-1.png)
 
 ### Product Listing
 
-![Product Listing](path-to-product-listing-screenshot.png)
+![Product Listing](image-2.png)
 
 ---
 
