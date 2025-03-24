@@ -11,8 +11,7 @@ const NewsLetterBox = () => {
       </p>
       <p className="text-gray-400 mt-3">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis hic
-        deleniti ducimus saepe soluta sunt animi veniam nihil inventore sapiente
-        minima, accusamus aut dolorum id nobis quasi possimus sequi esse!
+        deleniti ducimus sae
       </p>
       <form
         onSubmit={onSubmitHandler}
