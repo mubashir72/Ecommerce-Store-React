@@ -106,7 +106,7 @@ src/
 
 ### Homepage
 
-![Homepage]![alt text](image.png)
+![Homepage](image.png)
 ![Homepage](image-1.png)
 
 ### Product Listing
