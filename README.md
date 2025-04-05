@@ -1,5 +1,4 @@
 # E-Commerce Store Frontend
-
 This is a feature-rich frontend for an e-commerce store, developed using **React.js**, **Tailwind CSS**, and **HTML**. The project is designed to replicate a modern e-commerce platform with a clean UI and functional components.
 
 ## Features
